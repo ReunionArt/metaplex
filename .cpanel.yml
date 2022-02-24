@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/jmmb2210/public_html/
-    - /bin/cp -R /home/jmmb2210/repositories/metaplex $DEPLOYPATH
+    - export DEPLOYPATH=/home/jmmb2210/market.riad.re/
+    - /bin/cp -R /home/jmmb2210/repositories/metaplex/ $DEPLOYPATH
