@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/js/packages/web/src/App_tsx/
+    - /bin/cp -R images $DEPLOYPATH
